@@ -17,6 +17,8 @@ and open the template in the editor.
      echo 'and access my consulting service where you can purchase a consultation programme from a range of options.';
         ?>
         
+        <hr></hr>
+        
         <a href="CV.html"><button type="Button" class="btn btn-primary btn-block">CV Information</button>
         <a href="Interests.html"><button type="Button" class="btn btn-primary btn-block">Interests Information</button>
         <a href="ConsultingService.html"><button type="Button" class="btn btn-primary btn-block">Consultation Services</button>
