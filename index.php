@@ -9,7 +9,7 @@ and open the template in the editor.
         <meta charset="UTF-8">
         <title>Home Page</title>
     </head>
-    <body>
+    <body background="Home.png">
         <h1>Home</h1>
         <?php
      echo 'Hello, welcome to the homepage of my website.';
