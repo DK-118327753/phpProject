@@ -11,7 +11,7 @@ $_SESSION['txtTotal'] = $totalValue;
         <title>Ebusiness 1</title>
         <link rel="stylesheet" href="style.css" type="text/css" />
     </head>
-    <body>
+    <body style="background-color:darksalmon">
         <div class="form">
                 <form name="intCalc" method="post" action="eBus2.php">
                     <h1>Select a Consulting Service</h1>
@@ -19,7 +19,7 @@ $_SESSION['txtTotal'] = $totalValue;
                     <center>
                         <table cellspacing="10">
                             <tr>
-                                <td><b>Beverage</b></td>
+                                <td><b>Consultation Available:</b></td>
                             </tr>
                             <tr>
                                 <td>Blockchain @ $1000</td>

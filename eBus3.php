@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-    <body>
+    <body style="background-color: darksalmon">
         <!-- //Starting the session to get the session variable from last page-->
         <?php
         

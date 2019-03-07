@@ -20,7 +20,7 @@ $_SESSION['txtTotal'] = $totalValue2;
     <head>
         <title>eBusiness 2</title>
     </head>
-    <body>
+    <body style="background-color: darksalmon">
         <div class="form">
             <form name="Details" method="post" action="eBus3.php">
                 <center>
