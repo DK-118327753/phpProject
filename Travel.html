@@ -1,9 +1,4 @@
 <!DOCTYPE html>
-<!--
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
--->
 <html>
     <head>
         <title>Travel</title>
@@ -22,10 +17,17 @@ and open the template in the editor.
                 background-repeat: no-repeat;
                 background-size: cover;
             }
-                
-            .img {
-                    
-               
+     /*https://www.w3schools.com/howto/howto_css_images_side_by_side.asp */           
+            .column {
+                float: left;
+                width: 33.3%;
+                padding: 5px;
+            }
+            
+            .row::after {
+              content: "";
+              clear: both;
+              display: table;
             }
         </style>
     </head>
@@ -55,8 +57,15 @@ and open the template in the editor.
         <h2>Galway</h2>
         <div class="row">
             <div class="column">
-                <img src="GalwayCity.jpg"
+                <img src="GalwayCity.jpg" alt="Galway City" style="width:100%">
             </div>
+            <div class="column">
+                <img src="GalwayFlag.jpg" alt="Galway Flag" style="width:100%">
+            </div>
+            <div class="column">
+                <img src="Akumakon.jpg" alt="Akumakon" style="width:100%">
+            </div>
+        </div>
         <p>At the start of the second term, I decided to join the Sci-Fi Society on their trip to Akumakon in Galway.</p>
         <p>We stayed in a youth hostel during the course of that weekend, which was a very accommodating facility.</p>
         <p>The convention itself was very enjoyable. There were many stalls exhibiting their art and creation, all of which were very pleasant.</p>
