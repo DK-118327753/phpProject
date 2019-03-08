@@ -7,11 +7,12 @@ and open the template in the editor.
 <html>
     <head>
         <meta charset="UTF-8">
-        <title>Home Page</title>
+        <title>118327753</title>
+        <link rel="stylesheet" href="mystylesheet.css" type="text/css" />
         <style>
            .imageGallery {
             width: 960px;
-            height: 100%
+            height: 100%;
             position: relative;
             background-image: url('Home.png');
             background-size: cover;
@@ -60,13 +61,16 @@ and open the template in the editor.
         </style>    
     </head>
     <body class="imageGallery">
-        <h1>Home</h1>
+        <h1>118327753 - Home</h1>
         <?php
      echo 'Hello, welcome to the homepage of my website.';
      echo 'Here you will be able to access all the available features of my website, view my CV and personal interests';
      echo 'and access my consulting service where you can purchase a consultation programme from a range of options.';
         ?>
-        
+        </br>
+        <a href="is1113118327753.herokuapp.com">is1113118327753.herokuapp.com</a>
+        </br>
+        <a href="https://github.com/DiarmuidKeating/is1113118327753/graphs/comit-activity">GitHub</a>
         <br></br>
         
         <a href="CV.html"><button type="Button" class="button" style="vertical-align:middle"><span>CV Information</span></button>
