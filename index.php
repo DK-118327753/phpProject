@@ -8,10 +8,15 @@ and open the template in the editor.
     <head>
         <meta charset="UTF-8">
         <title>Home Page</title>
+        <style>
+           .imageGallery {
+            width: 960px;
+            position: relative;
+            background-image: url('Home.png');
+            }
+        </style>    
     </head>
-    <body>
-        <div class="imageGallery" style="background-image: url('Home.png')">
-        </div>
+    <body class="imageGallery">
         <h1>Home</h1>
         <?php
      echo 'Hello, welcome to the homepage of my website.';
