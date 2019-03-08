@@ -11,8 +11,50 @@ and open the template in the editor.
         <style>
            .imageGallery {
             width: 960px;
+            height: 100%
             position: relative;
             background-image: url('Home.png');
+            }
+            
+            /*https://www.w3schools.com/css/tryit.asp?filename=trycss_buttons_animate1 */
+            .button {
+                display: inline-block;
+                border-radius: 4px;
+                background-color: #f4511e;
+                border: none;
+                color: #FFFFFF;
+                text-align: center;
+                font-size: 28px;
+                padding: 20px;
+                width: 200px;
+                transition: all 0.5s;
+                cursor: pointer;
+                margin: 5px;
+            }
+
+            .button span {
+                cursor: pointer;
+                display: inline-block;
+                position: relative;
+                transition: 0.5s;
+            }
+
+            .button span:after {
+                content: '\00bb';
+                position: absolute;
+                opacity: 0;
+                top: 0;
+                right: -20px;
+                transition: 0.5s;
+            }
+
+            .button:hover span {
+                padding-right: 25px;
+            }
+
+            .button:hover span:after {
+                opacity: 1;
+                right: 0;
             }
         </style>    
     </head>
@@ -26,8 +68,8 @@ and open the template in the editor.
         
         <br></br>
         
-        <a href="CV.html"><button type="Button" class="btn btn-primary btn-block">CV Information</button>
-        <a href="Interests.html"><button type="Button" class="btn btn-primary btn-block">Interests Information</button>
-        <a href="ConsultingService.html"><button type="Button" class="btn btn-primary btn-block">Consultation Services</button>
+        <a href="CV.html"><button type="Button" class="button" style="vertical-align:middle"><span>CV Information</span></button>
+            <a href="Interests.html"><button type="Button" class="button" style="vertical-align:middle"><span>Interests Information</span></button>
+                <a href="ConsultingService.html"><button type="Button" class="button" style="vertical-align:middle"><span>Consultation Services</span></button>
     </body>
 </html>
