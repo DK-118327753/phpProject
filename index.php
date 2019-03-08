@@ -14,6 +14,7 @@ and open the template in the editor.
             height: 100%
             position: relative;
             background-image: url('Home.png');
+            background-size: cover;
             }
             
             /*https://www.w3schools.com/css/tryit.asp?filename=trycss_buttons_animate1 */
