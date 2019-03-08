@@ -68,7 +68,7 @@ and open the template in the editor.
      echo 'and access my consulting service where you can purchase a consultation programme from a range of options.';
         ?>
         </br>
-        <a href="is1113118327753.herokuapp.com">is1113118327753.herokuapp.com</a>
+        <a href="dk-phpproject1.herokuapp.com">is1113118327753.herokuapp.com</a>
         </br>
         <a href="https://github.com/DiarmuidKeating/is1113118327753/graphs/comit-activity">GitHub</a>
         <br></br>
