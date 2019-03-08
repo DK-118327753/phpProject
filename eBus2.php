@@ -35,7 +35,7 @@ $_SESSION['txtTotal'] = $totalValue2;
                         </tr>
                         <tr>
                             <td>Phone Number</td>
-                            <td><input type="text" id="txtNum" name="txtNum" value="" /></td>
+                            <td><input type="text" id="txtNum" name="txtNum" value="" data-inputmask=" 'mask': '(999) 999999'" /></td>
                         </tr>
                         
                         <tr>
